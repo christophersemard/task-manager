@@ -39,7 +39,7 @@ pnpm run dev
 
 Accéder à l'application via l'url donnée dans le terminal
 
-### 3. Build le projet
+### 4. Build le projet
 
 ```bash
 pnpm run build
