@@ -94,14 +94,17 @@ h1 {
                 background: var(--color-travail);
                 color: white;
             }
+
             &.personnel.active {
                 background: var(--color-personnel);
                 color: white;
             }
+
             &.urgent.active {
                 background: var(--color-urgent);
                 color: white;
             }
+
             &.done.active {
                 background: var(--color-done);
                 color: black;
@@ -205,6 +208,7 @@ h1 {
     border: none;
     cursor: pointer;
     transition: background 0.2s;
+
     &:hover {
         background: #dc2626 !important;
     }
@@ -232,24 +236,30 @@ h1 {
 
     &.travail {
         background: var(--color-travail-bg);
+
         .left-border {
             background: var(--color-travail);
         }
     }
+
     &.personnel {
         background: var(--color-personnel-bg);
+
         .left-border {
             background: var(--color-personnel);
         }
     }
+
     &.urgent {
         background: var(--color-urgent-bg);
+
         .left-border {
             background: var(--color-urgent);
         }
     }
 
     &.done {
+
         h3,
         small,
         .badge {
@@ -286,9 +296,11 @@ h1 {
         &.travail {
             background: var(--color-travail);
         }
+
         &.personnel {
             background: var(--color-personnel);
         }
+
         &.urgent {
             background: var(--color-urgent);
         }
@@ -401,6 +413,7 @@ h1 {
         border: none;
         cursor: pointer;
         transition: background 0.2s;
+
         &:hover {
             background: var(--color-done);
         }
@@ -415,6 +428,7 @@ h1 {
         border: none;
         cursor: pointer;
         transition: background 0.2s;
+
         &:hover {
             background: #dc2626;
         }
@@ -433,6 +447,7 @@ h1 {
         opacity: 0;
         transform: translateY(10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
